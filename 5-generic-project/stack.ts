@@ -2,39 +2,39 @@
  * 단일연결리스트를 사용
  * => head라는 것이 있음. head에 할당된 아이들을 이용해서 아이템을 찾아감
  */
-interface Stack {
+interface Stack<T> {
   readonly size: number;
-  push(value: string): void;
-  pop(): string;
+  push(value: T): void;
+  pop(): T;
 }
 
 // 한단계 감싼다면 불멸성을 유지해야함(readonly)
-type StackNode = {
-  readonly value: string;
-  readonly next?: StackNode;
+type StackNode<T> = {
+  readonly value: T;
+  readonly next?: StackNode<T>;
 };
 
-class StackImpl implements Stack {
+class StackImpl<T> implements Stack<T> {
   private _size: number = 0;
-  private head?: StackNode;
+  private head?: StackNode<T>;
 
   constructor(private capacity: number) {}
 
   get size() {
     return this._size;
   }
-  push(value: string): void {
+  push(value: T): void {
     if (this.size === this.capacity) {
       throw new Error("Stack is full");
     }
-    const node: StackNode = {
+    const node = {
       value,
       next: this.head,
     };
     this.head = node;
     this._size++;
   }
-  pop(): string {
+  pop(): T {
     if (this.head == null) {
       throw new Error("Stack is empty");
     }
@@ -45,7 +45,7 @@ class StackImpl implements Stack {
   }
 }
 
-const stack = new StackImpl(10);
+const stack = new StackImpl<string>(10);
 stack.push("Ellie 1");
 stack.push("Bob 2");
 stack.push("Steve 3");
@@ -53,4 +53,10 @@ while (stack.size !== 0) {
   console.log(stack.pop());
 }
 
-stack.pop();
+const stack2 = new StackImpl<number>(10);
+stack2.push(123);
+stack2.push(456);
+stack2.push(789);
+while (stack2.size !== 0) {
+  console.log(stack2.pop());
+}

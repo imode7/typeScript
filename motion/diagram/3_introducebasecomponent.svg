@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="306px" preserveAspectRatio="none" style="width:618px;height:306px;background:#777777;" version="1.1" viewBox="0 0 618 306" width="618px" zoomAndPan="magnify"><defs><filter height="300%" id="fs21sgbbnpure" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[4e13963c9dc916a21a8436ef39422b32]
+class Component--><rect codeLine="4" fill="#2E2E2E" filter="url(#fs21sgbbnpure)" height="54.9551" id="Component" style="stroke:#1B1B1B;stroke-width:1.5;" width="419" x="7" y="7"/><ellipse cx="180.5" cy="20" fill="#B4A7E5" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M182.8442,24.5 L178.1606,24.5 L178.1606,23.082 L179.4712,23.082 L179.4712,17.9204 L178.1606,17.9204 L178.1606,16.5024 L182.8442,16.5024 L182.8442,17.9204 L181.5337,17.9204 L181.5337,23.082 L182.8442,23.082 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="65" x="196.5" y="24.3748">Component</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="8" x2="425" y1="33" y2="33"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="8" x2="425" y1="41" y2="41"/><ellipse cx="18" cy="52" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="396" x="24" y="55.6348">attachTo(parent: HTMLElement, position?: InsertPosition | undefined): void</text><!--MD5=[784d533083758286c885e86b9fe3090e]
+class BaseComponent--><rect codeLine="7" fill="#2E2E2E" filter="url(#fs21sgbbnpure)" height="67.9102" id="BaseComponent" style="stroke:#1B1B1B;stroke-width:1.5;" width="355" x="39" y="122"/><ellipse cx="100.5" cy="135" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M100.6353,139.4058 Q99.7437,139.4058 98.989,139.1426 Q98.2344,138.8794 97.6919,138.3584 Q97.1494,137.8374 96.8513,137.0586 Q96.5532,136.2798 96.5532,135.2593 Q96.5532,134.3086 96.8379,133.5352 Q97.1226,132.7617 97.665,132.2085 Q98.186,131.6768 98.9568,131.3867 Q99.7275,131.0967 100.6406,131.0967 Q101.1455,131.0967 101.551,131.1531 Q101.9565,131.2095 102.3003,131.3008 Q102.6602,131.4028 102.9529,131.5291 Q103.2456,131.6553 103.4658,131.7627 L103.4658,133.7017 L103.2295,133.7017 Q103.0791,133.5728 102.8508,133.3955 Q102.6226,133.2183 102.3325,133.0464 Q102.0371,132.8745 101.6934,132.7563 Q101.3496,132.6382 100.9575,132.6382 Q100.5225,132.6382 100.1304,132.7751 Q99.7383,132.9121 99.4053,133.229 Q99.0884,133.5352 98.8923,134.04 Q98.6963,134.5449 98.6963,135.2646 Q98.6963,136.0166 98.9084,136.5215 Q99.1206,137.0264 99.4429,137.3164 Q99.7705,137.6118 100.1733,137.738 Q100.5762,137.8643 100.9683,137.8643 Q101.3442,137.8643 101.7122,137.7515 Q102.0801,137.6387 102.3916,137.4453 Q102.6548,137.2896 102.8804,137.1123 Q103.106,136.9351 103.251,136.8062 L103.4658,136.8062 L103.4658,138.7183 Q103.165,138.8525 102.8911,138.9707 Q102.6172,139.0889 102.3164,139.1748 Q101.9243,139.2876 101.5806,139.3467 Q101.2368,139.4058 100.6353,139.4058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="93" x="116.5" y="139.3748">BaseComponent</text><rect fill="#777777" height="14.9551" style="stroke:#AAAAAA;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="130" x="267" y="119"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="128" x="268" y="130.6348">T extends HTMLElement</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="40" x2="393" y1="148" y2="148"/><polygon fill="none" points="50,154,54,158,50,162,46,158" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="56" y="162.6348">element: T</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="40" x2="393" y1="168.9551" y2="168.9551"/><ellipse cx="50" cy="179.9551" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="332" x="56" y="183.5898">attachTo(parent: HTMLElement, position?: InsertPosition): void</text><!--MD5=[2ef76b0ddb2775e9b53b31b61ce34193]
+class ImageComponent--><rect codeLine="11" fill="#2E2E2E" filter="url(#fs21sgbbnpure)" height="42" id="ImageComponent" style="stroke:#1B1B1B;stroke-width:1.5;" width="128" x="73.5" y="250"/><ellipse cx="85.5" cy="263" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M85.6353,267.4058 Q84.7437,267.4058 83.989,267.1426 Q83.2344,266.8794 82.6919,266.3584 Q82.1494,265.8374 81.8513,265.0586 Q81.5532,264.2798 81.5532,263.2593 Q81.5532,262.3086 81.8379,261.5352 Q82.1226,260.7617 82.665,260.2085 Q83.186,259.6768 83.9568,259.3867 Q84.7275,259.0967 85.6406,259.0967 Q86.1455,259.0967 86.551,259.1531 Q86.9565,259.2095 87.3003,259.3008 Q87.6602,259.4028 87.9529,259.5291 Q88.2456,259.6553 88.4658,259.7627 L88.4658,261.7017 L88.2295,261.7017 Q88.0791,261.5728 87.8508,261.3955 Q87.6226,261.2183 87.3325,261.0464 Q87.0371,260.8745 86.6934,260.7563 Q86.3496,260.6382 85.9575,260.6382 Q85.5225,260.6382 85.1304,260.7751 Q84.7383,260.9121 84.4053,261.229 Q84.0884,261.5352 83.8923,262.04 Q83.6963,262.5449 83.6963,263.2646 Q83.6963,264.0166 83.9084,264.5215 Q84.1206,265.0264 84.4429,265.3164 Q84.7705,265.6118 85.1733,265.738 Q85.5762,265.8643 85.9683,265.8643 Q86.3442,265.8643 86.7122,265.7515 Q87.0801,265.6387 87.3916,265.4453 Q87.6548,265.2896 87.8804,265.1123 Q88.106,264.9351 88.251,264.8062 L88.4658,264.8062 L88.4658,266.7183 Q88.165,266.8525 87.8911,266.9707 Q87.6172,267.0889 87.3164,267.1748 Q86.9243,267.2876 86.5806,267.3467 Q86.2368,267.4058 85.6353,267.4058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="102" x="96.5" y="267.3748">ImageComponent</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="74.5" x2="200.5" y1="276" y2="276"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="74.5" x2="200.5" y1="284" y2="284"/><!--MD5=[002e8e2bfd01649225626de164f62fd3]
+class PageComponent--><rect codeLine="12" fill="#2E2E2E" filter="url(#fs21sgbbnpure)" height="42" id="PageComponent" style="stroke:#1B1B1B;stroke-width:1.5;" width="119" x="237" y="250"/><ellipse cx="249" cy="263" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M249.1353,267.4058 Q248.2437,267.4058 247.489,267.1426 Q246.7344,266.8794 246.1919,266.3584 Q245.6494,265.8374 245.3513,265.0586 Q245.0532,264.2798 245.0532,263.2593 Q245.0532,262.3086 245.3379,261.5352 Q245.6226,260.7617 246.165,260.2085 Q246.686,259.6768 247.4568,259.3867 Q248.2275,259.0967 249.1406,259.0967 Q249.6455,259.0967 250.051,259.1531 Q250.4565,259.2095 250.8003,259.3008 Q251.1602,259.4028 251.4529,259.5291 Q251.7456,259.6553 251.9658,259.7627 L251.9658,261.7017 L251.7295,261.7017 Q251.5791,261.5728 251.3508,261.3955 Q251.1226,261.2183 250.8325,261.0464 Q250.5371,260.8745 250.1934,260.7563 Q249.8496,260.6382 249.4575,260.6382 Q249.0225,260.6382 248.6304,260.7751 Q248.2383,260.9121 247.9053,261.229 Q247.5884,261.5352 247.3923,262.04 Q247.1963,262.5449 247.1963,263.2646 Q247.1963,264.0166 247.4084,264.5215 Q247.6206,265.0264 247.9429,265.3164 Q248.2705,265.6118 248.6733,265.738 Q249.0762,265.8643 249.4683,265.8643 Q249.8442,265.8643 250.2122,265.7515 Q250.5801,265.6387 250.8916,265.4453 Q251.1548,265.2896 251.3804,265.1123 Q251.606,264.9351 251.751,264.8062 L251.9658,264.8062 L251.9658,266.7183 Q251.665,266.8525 251.3911,266.9707 Q251.1172,267.0889 250.8164,267.1748 Q250.4243,267.2876 250.0806,267.3467 Q249.7368,267.4058 249.1353,267.4058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="93" x="260" y="267.3748">PageComponent</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="238" x2="355" y1="276" y2="276"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="238" x2="355" y1="284" y2="284"/><!--MD5=[335f4d9be48430461c68bf6d6fdba145]
+class App--><rect codeLine="13" fill="#2E2E2E" filter="url(#fs21sgbbnpure)" height="54.9551" id="App" style="stroke:#1B1B1B;stroke-width:1.5;" width="143" x="461" y="7"/><ellipse cx="518" cy="20" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M518.1353,24.4058 Q517.2437,24.4058 516.489,24.1426 Q515.7344,23.8794 515.1919,23.3584 Q514.6494,22.8374 514.3513,22.0586 Q514.0532,21.2798 514.0532,20.2593 Q514.0532,19.3086 514.3379,18.5352 Q514.6226,17.7617 515.165,17.2085 Q515.686,16.6768 516.4568,16.3867 Q517.2275,16.0967 518.1406,16.0967 Q518.6455,16.0967 519.051,16.1531 Q519.4565,16.2095 519.8003,16.3008 Q520.1602,16.4028 520.4529,16.5291 Q520.7456,16.6553 520.9658,16.7627 L520.9658,18.7017 L520.7295,18.7017 Q520.5791,18.5728 520.3508,18.3955 Q520.1226,18.2183 519.8325,18.0464 Q519.5371,17.8745 519.1934,17.7563 Q518.8496,17.6382 518.4575,17.6382 Q518.0225,17.6382 517.6304,17.7751 Q517.2383,17.9121 516.9053,18.229 Q516.5884,18.5352 516.3923,19.04 Q516.1963,19.5449 516.1963,20.2646 Q516.1963,21.0166 516.4084,21.5215 Q516.6206,22.0264 516.9429,22.3164 Q517.2705,22.6118 517.6733,22.738 Q518.0762,22.8643 518.4683,22.8643 Q518.8442,22.8643 519.2122,22.7515 Q519.5801,22.6387 519.8916,22.4453 Q520.1548,22.2896 520.3804,22.1123 Q520.606,21.9351 520.751,21.8062 L520.9658,21.8062 L520.9658,23.7183 Q520.665,23.8525 520.3911,23.9707 Q520.1172,24.0889 519.8164,24.1748 Q519.4243,24.2876 519.0806,24.3467 Q518.7368,24.4058 518.1353,24.4058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="22" x="534" y="24.3748">App</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="462" x2="603" y1="33" y2="33"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="469" y="41"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="478" y="47.6348">page: PageComponent</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="462" x2="603" y1="53.9551" y2="53.9551"/><!--MD5=[5138e1726e9722808680e9cc81e45b35]
+reverse link Component to BaseComponent--><path d="M216.5,82.24 C216.5,95.42 216.5,109.49 216.5,121.71 " fill="none" id="Component-backto-BaseComponent" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="209.5,82.02,216.5,62.02,223.5,82.02,209.5,82.02" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[29b9bf4036036b28cde1f0225d581220]
+reverse link BaseComponent to ImageComponent--><path d="M181.65,206.84 C171.09,221.95 160.08,237.71 151.69,249.7 " fill="none" id="BaseComponent-backto-ImageComponent" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="none" points="176.03,202.67,193.22,190.29,187.5,210.69,176.03,202.67" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[d12126b444a36097ccaa28cd1894f2d3]
+reverse link BaseComponent to PageComponent--><path d="M251.79,206.84 C262.48,221.95 273.64,237.71 282.13,249.7 " fill="none" id="BaseComponent-backto-PageComponent" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="none" points="245.91,210.66,240.07,190.29,257.34,202.57,245.91,210.66" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[e149bd267e2f7391a22709f426e6866b]
+@startuml
+!define DARKORANGE
+!include https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+interface Component {
+    +attachTo(parent: HTMLElement, position?: InsertPosition | undefined): void
+}
+class BaseComponent<T extends HTMLElement> implements Component {
+    #element: T
+    +attachTo(parent: HTMLElement, position?: InsertPosition): void
+}
+class ImageComponent extends BaseComponent
+class PageComponent extends BaseComponent
+class App {
+    -page: PageComponent
+}
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor BB6600
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor BB6600
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor BB6600
+  endColor 662200
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+interface Component {
+    +attachTo(parent: HTMLElement, position?: InsertPosition | undefined): void
+}
+class BaseComponent<T extends HTMLElement> implements Component {
+    #element: T
+    +attachTo(parent: HTMLElement, position?: InsertPosition): void
+}
+class ImageComponent extends BaseComponent
+class PageComponent extends BaseComponent
+class App {
+    -page: PageComponent
+}
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 19:25:05 KST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: AU
+--></g></svg>
